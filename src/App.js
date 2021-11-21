@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 //components
 import Navbar from "./components/Navbar/Navbar";
-import HOME from "./views/Home/Home";
+// import HOME from "./views/Home/Home";
 import SearchBike from './views/SearchBike/SearchBike';
 import SearchLane from './views/SearchLane/SearchLane'
 //css

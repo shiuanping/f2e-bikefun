@@ -1,5 +1,5 @@
 import logo from '../../assets/img/LOGO.svg';
-import { Header, LOGO, Menu, Button } from './style';
+import { Header, LOGO, Menu } from './style';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {

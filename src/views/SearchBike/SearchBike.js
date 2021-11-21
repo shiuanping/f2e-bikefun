@@ -29,14 +29,14 @@ function SetCenter(props) {
 const SearchBike = () => {
   const [data, setData] = useState([]);
   const [currentCity, setCurrentCity] = useState('Taipei');
-  const [currentPos, setCurrentPos] = useState([25.09108, 121.5598]);
+  const [currentPos, setCurrentPos] = useState([25.048003486839985, 121.51694543983346]);
   const [searchStatus, setSearchStatus] = useState(false);
   const [stationDetail, setStationDetail] = useState([]);
   const [keyword, setKeyword] = useState('');
   useEffect(() =>{
     getData()
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[currentCity])
+  },[currentCity, keyword])
   useEffect(() =>{
     const currentCityData = (cityData.filter(item => item.value.includes(currentCity)))[0];
     const { latitude, longitude } = currentCityData;
