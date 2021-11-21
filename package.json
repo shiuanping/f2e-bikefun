@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "homepage": "https://shiuanping.github.io/F2E_BikeFun",
+  "name": "f2e-bikefun",
+  "homepage": "https://shiuanping.github.io/f2e-bikefun",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
